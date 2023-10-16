@@ -99,6 +99,11 @@
     visibility: hidden;
   }
 
+  .user-icon {
+    display: block;
+    visibility: visible;
+  }
+
   .user-icon::before {
     content: url(./icons/userIcon.svg);
     display: block;
